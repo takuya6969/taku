@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="伊勢卓矢のポートフォリオサイトです。">
+  <title>伊勢卓矢のポートフォリオサイト</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body {
+  color:white;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  background-color: #efefef;
+  padding: 32px 0;
+  background-image: url("takuku.jpg");
+}
+
+.container {
+ 
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.icon img {
+border-radius: 50%;
+border-width: 4px;
+border-style: solid;
+border-color:black;
+}
+
+.info {
+  /*background-color: tomato;*/
+  margin-left: 32px;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li {
+  margin-right: 8px;
+}
+
+.works {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.works > h1 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.works > section {
+  margin-bottom: 60px;
+}
+
+.works > section > h1 {
+  font-weight: normal;
+}
+
+.works p {
+  line-height: 1.8;
+}
+
+footer {
+  background-image: url("takuku.jpg");
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="icon">
+        <img src="taku.JPG" width="120" height="120" alt="伊勢卓矢のアイコンです">
+      </div>
+      <div class="info">
+        <h1>伊勢卓矢</h1>
+        <p>東京都市大学メディア情報学部三年。大学の春休みに入ってからプログラミングをは始めたが、努力が実る日は程遠いと思われる。プログラミングと格闘する毎日が続いている。
+        </p>
+        <ul>
+          <li>
+            <a href="https://mobile.twitter.com/11926996" target="_blank">
+              <img src="tako.png"  width="20" height="20" alt="ツイッターのアカウントです。">
+            </a>
+          </li>
+          <li>
+            <a href="https://line.me/ti/p/ffvbU1k_8-" target="_blank">
+              <img src="takoko.png" width="20" height="20" alt="ラインのアカウントです。">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="works">
+    <h1>趣味</h1>
+
+    <section>
+      <img src="syou.jpg" width="400" height="260">
+
+      <h1>サッカー観戦</h1>
+      <p>平塚駅が最寄という事もあり、湘南ベルマーレのサポーターである。
+        ホームで行われる試合はほとんど見に行くほどで、
+        好きな選手は山田直輝と梅崎司。
+        ただコロナウイルスの影響でJリーグの試合が延期しているので、残念ながら最近は試合を見れていない。
+      </p>
+    </section>
+    <section>
+      <img src="susida.jpg" width="400" height="260">
+
+      <h1>寿司打</h1>
+      <p>寿司打とはタイピングを速くするためのアプリケーション。3000、5000、10000とランク分けされた3つのコースがある。大学生の平均は2000前後であり、IT業界に進むのであれば10000は欲しい所であると言われている。始めは私も大学生の平均程であったが、今では7000を平均して超えるようになってきた。業務の効率化、生産性を上げるといった面でタイピングスキルを磨くことは避けて通れない道であると思う。</p>
+    </section>
+
+    <section>
+      <img src="ppp.png" width="400" height="260">
+
+      <h1>プログラミング学習</h1>
+      <p>第四次産業の到来により、プログラマーの圧倒的不足が顕在化してきている。そういった現実を目の当たりにした僕は大学二年の春休みが始まると共に、真っ先にプログラミングの世界へと飛び込んだ。プロゲートとドットインストールという2つのプログラミング学習サービスを駆使し、勉強している。
+        感想としては正直難しい。だが全く歯が立たないわけではないので、持久戦のようにどれくらいの期間学習を続けていけるかが重要な鍵となりそうだ。</p>
+    </section>
+  </section>
+  
+  <footer>
+    <p> (c) isetakuya web site</p>
+  </footer>
+</body>
+</html>
